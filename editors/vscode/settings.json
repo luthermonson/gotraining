@@ -6,7 +6,9 @@
     "go.goroot": "/usr/local/go",
     "go.gopath": "/Users/bill/code/go",
     "go.enableCodeLens": {"references": false, "runtest": false},
-    "go.addTags": {},
+    "go.addTags": {
+    
+    },
     "go.alternateTools": {},
     "go.useLanguageServer": true,
     "[go]": {
@@ -28,7 +30,7 @@
     "go.languageServerFlags": [
         "serve",
         "-rpc.trace", // for more detailed debug logging
-        "--debug=localhost:6060",
+        "--debug=localhost:6060"
     ],
 
     "editor.fontSize": 14,
@@ -62,4 +64,7 @@
     "liveshare.anonymousGuestApproval": "accept",
     "editor.folding": false,
     "explorer.compactFolders": false,
+    "files.associations": {
+        "*.go2": "go"
+    }
 }
